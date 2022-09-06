@@ -2,9 +2,10 @@
 import React from 'react'
 import '../Styles/Header.css'
 function Header() {
+  const turnerLogo = require('../images/Turners Cars logo.png')
   return (
     <div className='header'>
-      <p className='title'>Turner Cars</p>
+      <img className='title' src={String(turnerLogo)} alt="turner" />
       <div className='lang-button'>English</div>
     </div>
   )
