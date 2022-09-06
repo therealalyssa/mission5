@@ -1,27 +1,16 @@
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   height: 50px;
   background-color: #0177bf;
 }
 
 .links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-left: 100px;
+  flex-direction: row;
+  margin-left: 200px;
   color: #ffffff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
@@ -29,13 +18,9 @@
 }
 
 .searchContact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 100px;
+  align-items: center;
+  margin-right: 200px;
   gap: 40px;
 }
 
@@ -46,13 +31,8 @@
 }
 
 .search {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
+  flex-flow: row nowrap;
   width: 300px;
   border: 1px solid #ffffff;
   border-radius: 7px;
@@ -68,19 +48,13 @@
   padding: 5px;
 }
 
-.search-input::-webkit-input-placeholder {
+.search-input::-moz-placeholder {
   color: #ffffff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 19px;
 }
 
 .search-input:-ms-input-placeholder {
-  color: #ffffff;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 19px;
-}
-
-.search-input::-ms-input-placeholder {
   color: #ffffff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 19px;
@@ -96,8 +70,6 @@
   width: 15%;
   color: #ffffff;
   background-color: #0177bf;
-  display: -ms-grid;
   display: grid;
   place-content: center;
-}
-/*# sourceMappingURL=Navbar.css.map */
+}/*# sourceMappingURL=Navbar.css.map */
