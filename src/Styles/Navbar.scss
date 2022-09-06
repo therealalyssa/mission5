@@ -7,17 +7,23 @@
     height: 50px;
     background-color: $turnerBlue;
 }
-.navbar a {
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-left: $sideMargin;
     color: $turnerWhite;
-    text-decoration: none;
     font-family: $bodyFont;
     font-size: $bodyFontSize;
+    gap: $navbarGaps;
 }
 .searchContact{
     display: flex;
     align-items: center;
+    margin-right: $sideMargin;
+    gap: $navbarGaps;
 }
-.searchContact a{
+.contact {
+    color: $turnerWhite;
     font-family: $bodyFont;
     font-size: $bodyFontSize;
 }
@@ -40,6 +46,8 @@
 .search-input::placeholder{
     color: $turnerWhite;
     font-family: $bodyFont;
+    font-size: $bodyFontSize + 1;
+
 }
 .search-button {
     width: 15%;

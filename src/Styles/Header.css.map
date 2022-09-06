@@ -1,1 +1,10 @@
-{"version":3,"sources":["Header.scss","../Variables/Variables.scss","Header.css"],"names":[],"mappings":"AAEA;EACI,yBCGa;ACJjB","file":"Header.css"}
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,CAAA;EACH,gBAAgB,ECGH,OAAO;CDFvB",
+    "sources": [
+        "Header.scss",
+        "../Variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "Header.css"
+}
