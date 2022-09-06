@@ -1,34 +1,38 @@
 //Ranju
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import '../Styles/Navbar.css'
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import "../Styles/Navbar.css";
+import InsuranceMenu from "./InsuranceMenu";
+
 function Navbar() {
   return (
-    <div className='navbar'>
-      <div className='links'>
-        {/* <a href="/">Find a Vehicle</a>
-        <a href="/">How to Buy</a>
-        <a href="/">Sell your Car</a>
-        <a href="/">Finance</a>
-        <a href="/">Insurance</a> */}
+    <div className="navbar">
+      <div className="links">
         <div>Find a Vehicle</div>
         <div>How to Buy</div>
         <div>Sell your Car</div>
         <div>Finance</div>
-        <div>Insurance</div>
+        <div>
+          <InsuranceMenu></InsuranceMenu>{" "}
+        </div>
       </div>
-      <div className='searchContact'>
-        <form className='search'>
-          <button className='search-button'>
-            <FontAwesomeIcon icon={faMagnifyingGlass}/>
+      <div className="searchContact">
+        <form className="search">
+          <button className="search-button">
+            <FontAwesomeIcon icon={faMagnifyingGlass} />
           </button>
-          <input className='search-input' type='text' id='search' placeholder='search'></input>
+          <input
+            className="search-input"
+            type="text"
+            id="search"
+            placeholder="search"
+          ></input>
         </form>
-        <div className='contact'> Contact</div>
+        <div className="contact"> Contact</div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
