@@ -1,4 +1,25 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #e1eaf4;
 }
-/*# sourceMappingURL=Header.css.map */
+
+.title {
+  margin-left: 100px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.lang-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cc1543;
+  color: #ffffff;
+  font-size: small;
+  width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 100px;
+}/*# sourceMappingURL=Header.css.map */

@@ -1,5 +1,25 @@
 @import '../Variables/Variables.scss';
 
 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: $turnerOffWhite;
+}
+.title{
+    margin-left: $sideMargin;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.lang-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$turnerRed ;
+    color: $turnerWhite;
+    font-size: small;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: $sideMargin;
 }

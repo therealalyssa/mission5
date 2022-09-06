@@ -4,7 +4,8 @@ import '../Styles/Header.css'
 function Header() {
   return (
     <div className='header'>
-      Header
+      <p className='title'>Turner Cars</p>
+      <div className='lang-button'>English</div>
     </div>
   )
 }
