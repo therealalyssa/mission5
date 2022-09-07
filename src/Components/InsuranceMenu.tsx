@@ -48,6 +48,7 @@ const Menu: React.FC = (): JSX.Element => {
         }
       >
         <div>Insurance</div>
+        <p className="chevron top"></p>
         {showDropDown && (
           <DropDown
             cities={insOptions()}

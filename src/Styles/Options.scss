@@ -1,0 +1,16 @@
+// table, th, td {
+//     border: 1px solid black;
+//   }
+
+.border-top td, .border-top th {
+    border-top: 2px solid #797b7e;
+}
+
+table { 
+    border-spacing: 0px;
+}
+
+td {
+    border-right: solid 2px #797b7e; 
+    //border-left: solid 2px #797b7e;
+  }
