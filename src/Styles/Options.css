@@ -1,3 +1,9 @@
+.options {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
 .border-top td, .border-top th {
   border-top: 2px solid #797b7e;
 }
@@ -6,6 +12,6 @@ table {
   border-spacing: 0px;
 }
 
-td {
+.border-top td {
   border-right: solid 2px #797b7e;
 }/*# sourceMappingURL=Options.css.map */

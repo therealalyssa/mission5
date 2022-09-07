@@ -5,7 +5,7 @@ function Options() {
   const tick = require("../images/Tick Icon.png");
   const cross = require("../images/Cross Icon.png");
   return (
-    <div>
+    <div className="options">
       <table>
         <tr>
           <th></th>
