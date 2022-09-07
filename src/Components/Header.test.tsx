@@ -3,7 +3,7 @@ import Header from './Header';
 
 test('should render header', () =>{
     render(<Header></Header>);
-    const todoElement = screen.getByTestId('header-2');
+    const todoElement = screen.getByTestId('header-1');
     expect(todoElement).toBeInTheDocument();
 })
 export{}
