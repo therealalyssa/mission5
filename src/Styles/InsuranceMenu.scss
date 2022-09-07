@@ -1,0 +1,87 @@
+@import '../Variables/Variables.scss';
+
+.chevron-down {
+	border-style: solid;
+	border-width: 0.15em 0.15em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(135deg);
+	vertical-align: top;
+	width: 0.45em;
+  margin-left: 5px;
+}
+.chevron-up {
+	border-style: solid;
+	border-width: 0.15em 0.15em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.45em;
+	left: 0.15em;
+	position: relative;
+	top: 0.15em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.45em;
+  margin-left: 5px;
+}
+.ins-active {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: $turnerWhite;
+  background-color:$turnerBlue;
+  font-family: $bodyFont;
+  vertical-align: middle;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border:0;
+  height: 20px;
+}
+.ins-inactive{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  color: $turnerWhite;
+  background-color:$turnerBlue;
+  font-family: $bodyFont;
+  vertical-align: middle;
+  user-select: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border:0;
+  height: 20px;
+}
+.dropdown {
+  position: absolute;
+  top: 38px;
+  left: -1px;
+  border: 1px solid rgb(197, 197, 197);
+  background: rgba(255, 255, 255,0.4);
+  padding: 0;
+  text-align: left;
+  border-radius: 0.25rem;
+}
+.dropdown > p {
+    color: $turnerBlue;
+  margin: 0;
+  padding: 0.375rem 0.88rem;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  min-width: 140px;
+}
+.dropdown > p:hover {
+    background: rgba(255, 255, 255,0.8);
+}
+.dropdown > p:last-child {
+  border-bottom: 0 none;
+}

@@ -1,19 +1,21 @@
 import React, { useState } from "react";
-import InsDropDown from "./InsDropDown";
-import "../Styles/InsuranceMenu.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import LangDropDown from "./LangDropDown";
+import "../Styles/LanguageMenu.css";
 
 const Menu: React.FC = (): JSX.Element => {
-  const [showDropDown, setShowDropDown] = useState<boolean>(false);
+  const [buttonClosed, setButtonClosed] = useState<boolean>(false);
   const [selectInsOption, setInsOption] = useState<string>("");
-  const insOptions = () => {
-    return ["Get Insurance", "Make a Claim", "Contact Us"];
+  const langOptions = () => {
+    return ["Māori", "普通话"];
   };
 
   /**
    * Toggle the drop down menu and chevron
    */
   const toggleDropDown = () => {
-    setShowDropDown(!showDropDown);
+    setButtonClosed(!buttonClosed);
   };
 
   /**
@@ -24,7 +26,8 @@ const Menu: React.FC = (): JSX.Element => {
    */
   const dismissHandler = (event: React.FocusEvent<HTMLButtonElement>): void => {
     if (event.currentTarget === event.target) {
-      setShowDropDown(false);
+      //setShowDropDown(false);
+      setButtonClosed(false);
     }
   };
 
@@ -34,27 +37,32 @@ const Menu: React.FC = (): JSX.Element => {
    *
    * @param insOption  The selected city
    */
-  const citySelection = (insOption: string): void => {
+  const langSelection = (insOption: string): void => {
     setInsOption(insOption);
   };
 
   return (
     <>
       <button
-        className={showDropDown ? "ins-active" : "ins-inactive"}
+        className={buttonClosed ? "lang-active" : "lang-inactive"}
         onClick={(): void => toggleDropDown()}
         onBlur={(e: React.FocusEvent<HTMLButtonElement>): void =>
           dismissHandler(e)
         }
       >
-        <div className="ins-text">Insurance</div>
-        <p className={showDropDown ? "chevron-up" : "chevron-down"}></p>
-        {showDropDown && (
-          <InsDropDown
-            language={insOptions()}
+        <div
+          className={buttonClosed ? "lang-button-content-open" : "lang-button-content" }
+        >
+          <FontAwesomeIcon icon={faGlobe} />
+          <p>English</p>
+          <p className={buttonClosed ? "chevron-up" : "chevron-down"}></p>
+        </div>
+        {buttonClosed && (
+          <LangDropDown
+            language={langOptions()}
             showDropDown={false}
             toggleDropDown={(): void => toggleDropDown()}
-            citySelection={citySelection}
+            langSelection={langSelection}
           />
         )}
       </button>

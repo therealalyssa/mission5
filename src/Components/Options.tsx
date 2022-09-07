@@ -7,7 +7,7 @@ function Options() {
   return (
     <div className="options">
       <table>
-        <tr>
+        <tr className="border-top">
           <th></th>
           <th>Third Party , Fire and Theft</th>
           <th>
@@ -148,10 +148,10 @@ function Options() {
           </td>
         </tr>
         <tr className="border-top">
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td>.</td>
+          <td>.</td>
+          <td>.</td>
+          <td>.</td>
         </tr>
       </table>
     </div>

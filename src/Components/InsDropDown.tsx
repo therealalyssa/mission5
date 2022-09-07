@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
-import "../Styles/Menu.css";
 
 type DropDownProps = {
-  cities: string[];
+  language: string[];
   showDropDown: boolean;
   toggleDropDown: Function;
   citySelection: Function;
 };
 
 const DropDown: React.FC<DropDownProps> = ({
-  cities,
+  language: cities,
   citySelection,
 }: DropDownProps): JSX.Element => {
   const [showDropDown, setShowDropDown] = useState<boolean>(false);

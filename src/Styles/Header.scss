@@ -8,18 +8,7 @@
 }
 .title{
     margin-left: $sideMargin;
+    margin-right: $sideMargin;
     height: 35px;
     padding: 10px;
-}
-.lang-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:$turnerRed ;
-    color: $turnerWhite;
-    font-size: small;
-    width: 120px;
-    height: 30px;
-    border-radius: 15px;
-    margin-right: $sideMargin;
 }
