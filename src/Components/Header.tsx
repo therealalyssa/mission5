@@ -1,14 +1,19 @@
 //Ranju
-import React from 'react'
-import '../Styles/Header.css'
+import React from "react";
+
+import LanguageMenu from "./LanguageMenu";
+import "../Styles/Header.css";
+
 function Header() {
-  const turnerLogo = require('../images/Turners Cars logo.png')
+  const turnerLogo = require("../images/Turners Cars logo.png");
   return (
-    <div className='header'>
-      <img className='title' src={String(turnerLogo)} alt="turner" />
-      <div className='lang-button'>English</div>
+    <div className="header" data-testid = "header-1">
+      <img className="title" src={String(turnerLogo)} alt="turner" />
+      <div className="title">
+      <LanguageMenu></LanguageMenu>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

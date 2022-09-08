@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53d1c7f4.css",
+    "main.js": "/static/js/main.5d2854df.js",
+    "static/js/787.2ef4c04e.chunk.js": "/static/js/787.2ef4c04e.chunk.js",
+    "static/media/CarBG.png": "/static/media/CarBG.796c7e186dd008f6134e.png",
+    "static/media/Badge3.png": "/static/media/Badge3.0e5e0445f8c034bdeb80.png",
+    "static/media/Badge2.png": "/static/media/Badge2.5ba553f757118fb4fdef.png",
+    "static/media/Badge1.png": "/static/media/Badge1.f10814ed070aad619b1c.png",
+    "index.html": "/index.html",
+    "main.53d1c7f4.css.map": "/static/css/main.53d1c7f4.css.map",
+    "main.5d2854df.js.map": "/static/js/main.5d2854df.js.map",
+    "787.2ef4c04e.chunk.js.map": "/static/js/787.2ef4c04e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53d1c7f4.css",
+    "static/js/main.5d2854df.js"
+  ]
+}
