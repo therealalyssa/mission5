@@ -8,6 +8,7 @@ const Menu: React.FC = (): JSX.Element => {
   const insOptions = () => {
     return ["Get Insurance", "Make a Claim", "Contact Us"];
   };
+  console.log(selectInsOption);
 
   /**
    * Toggle the drop down menu and chevron
