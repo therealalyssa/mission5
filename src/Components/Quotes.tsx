@@ -18,7 +18,7 @@ function Quotes() {
       <h1 className='quotestext'>Insuring more than one car? We’ve got <br></br> you covered. Get 5% discount with our<br></br>  Multi Car Policy
 </h1>
       <p className="quotestext">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et at montes, pulvinar. <br></br>
+      Hey baby. I love you.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et at montes, pulvinar. <br></br>
       Eu habitasse donec ligula sit. Egestas sagittis nec nulla tincidunt vitae. Nec suscipit eget nunc proin. <br></br>Eu eget sed diam morbi.</p>
 
 {/* 
