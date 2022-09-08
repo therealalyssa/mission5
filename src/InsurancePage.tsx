@@ -7,10 +7,13 @@ import Quotes from './Components/Quotes';
 import FAQs from './Components/FAQs';
 import Links from './Components/Links';
 import Footer from './Components/Footer';
+// import KommunicateChat from "./Components/Chatbot";
+
 
 function InsurancePage() {
   return (
     <div>
+      {/* <KommunicateChat/> */}
         <Header/>
         <Navbar/>
         <Profile/>
