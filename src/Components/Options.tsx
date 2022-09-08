@@ -5,7 +5,7 @@ import "../Styles/Options.css";
 function Options() {
   const tick = require("../images/Tick Icon.png");
   const cross = require("../images/Cross Icon.png");
-  const download=require("../images/Status=Default.png")
+  // const download=require("../images/Status=Default.png")
   return (
     <div className="options">
       <table>
