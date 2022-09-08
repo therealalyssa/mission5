@@ -10,7 +10,7 @@ function Navbar() {
     <div className="navbar">
       <div className="links">
         <div>Find a Vehicle</div>
-        <div>How to Buy a Car</div>
+        <div>How to Buy</div>
         <div>Sell your Car</div>
         <div>Finance</div>
         <div>
