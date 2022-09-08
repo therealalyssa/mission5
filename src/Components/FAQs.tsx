@@ -3,6 +3,7 @@ import React from 'react'
 
 function FAQs() {
   return (
+
     <section className="questions">
         <div>
           <h4>FREQUENTLY ASKED QUESTIONS</h4>
@@ -79,11 +80,17 @@ function FAQs() {
             </div>
 
             <div className="question-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                dolore illo dolores quia nemo doloribus quaerat, magni numquam
-                repellat reprehenderit.
-              </p>
+            <p>
+            How do I make a car insurance claim? </p>
+                <p>Will all of my claim be covered</p>
+<p>What should I do if there is a car accident? </p>
+<p>Someone drove into my car, what do I do?</p>
+<p>What if I caused the accident and the other person wants to make a claim against me?</p>
+
+<p>What if my windscreen or window is damaged?</p>
+<p>If a repairer needs to dismantle the car, who will pay for the cost?</p>
+             
+
             </div>
           </article>
 
@@ -104,10 +111,9 @@ function FAQs() {
 
             <div className="question-text">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
-                dolore illo dolores quia nemo doloribus quaerat, magni numquam
-                repellat reprehenderit.
+              Is my policy refundable or transferable?
               </p>
+              <p>How can I make a premium payment by credit card?</p>
             </div>
           </article>
           </div>
