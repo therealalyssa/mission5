@@ -11,7 +11,6 @@ const Menu: React.FC = (): JSX.Element => {
     return ["Māori", "普通话"];
   };
   console.log(selectInsOption);
-
   /**
    * Toggle the drop down menu and chevron
    */
