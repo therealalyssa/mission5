@@ -201,23 +201,23 @@ function Options() {
           </td>
         </tr>
         <tr className="border-top">
-        <td></td>
           <td>
-          {/* <a id="test" href="https://content.tgstatic.co.nz/webassets/globalassets/terms-and-conditions/turners-third-party-fire-and-theft-policy-wording-0622.pdf" download="myimage" target="_blank" className="download2"><img src={String(download)} alt="tick" /></a> */}
-          <div className='quote-buttons3'>
-          <div className='green-button2'>
-            Get a quote
-          </div>
-          </div>
+            {/* <a id="test" href="https://content.tgstatic.co.nz/webassets/globalassets/terms-and-conditions/turners-third-party-fire-and-theft-policy-wording-0622.pdf" download="myimage" target="_blank" className="download2"><img src={String(download)} alt="tick" /></a> */}
+            <div className='quote-buttons3'>
+            <div className='green-button2'>
+              Get a quote
+            </div>
+            </div>
           </td>
           <td>
-          {/* <a id="test" href="https://content.tgstatic.co.nz/webassets/globalassets/terms-and-conditions/turners-third-party-fire-and-theft-policy-wording-0622.pdf" download="myimage" target="_blank"><img src={String(download)} alt="tick" /></a> */}
-          <div className='quote-buttons2'>
-          <div className='green-button'>
-            Get a quote
-          </div>
-          </div>
+            {/* <a id="test" href="https://content.tgstatic.co.nz/webassets/globalassets/terms-and-conditions/turners-third-party-fire-and-theft-policy-wording-0622.pdf" download="myimage" target="_blank"><img src={String(download)} alt="tick" /></a> */}
+            <div className='quote-buttons2'>
+            <div className='green-button'>
+              Get a quote
+            </div>
+            </div>
           </td>
+          <td>
           {/* <td><a id="test" href="https://content.tgstatic.co.nz/webassets/globalassets/terms-and-conditions/turners-third-party-fire-and-theft-policy-wording-0622.pdf" download="myimage" target="_blank"><img src={String(download)} alt="tick" /></a> */}
           <div className=' quote-buttons2'>
           <div className='green-button'>
@@ -225,8 +225,6 @@ function Options() {
           </div>
           </div>
           </td>
-          
-          <td></td>
         </tr>
         <tr className="border-right">
           <td></td>
