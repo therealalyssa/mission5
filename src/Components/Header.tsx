@@ -7,7 +7,7 @@ import "../Styles/Header.css";
 function Header() {
   const turnerLogo = require("../images/Turners Cars logo.png");
   return (
-    <div className="header" data-testid = "header-1">
+    <div className="header">
       <img className="title" src={String(turnerLogo)} alt="turner" />
       <div className="title">
       <LanguageMenu></LanguageMenu>
