@@ -53,4 +53,3 @@ npm install --save @fortawesome/react-fontawesome
 npm install --save-dev jest
 npm install --save-dev @testing-library/react react-test-renderer
 firebase init hosting
-
