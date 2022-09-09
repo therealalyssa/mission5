@@ -5,6 +5,14 @@
   background-color: #e1eaf4;
 }
 
+.header2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #434344;
+  color: white;
+}
+
 .title {
   margin-left: 200px;
   margin-right: 200px;
