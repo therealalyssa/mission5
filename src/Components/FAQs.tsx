@@ -19,7 +19,7 @@ function FAQs(){
           <div className='faqbutton1'>
           Car Insurance
           </div>
-          <p>Car Insurance</p>
+          <p>Car Insurance is goos</p>
             
               <p>Mechanical Breakdown Insurance</p>
              
