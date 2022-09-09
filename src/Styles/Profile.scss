@@ -1,4 +1,6 @@
 @import '../Variables/Variables.scss';
+
+
 .profile-section{
     display: flex;
     flex-direction: column;
@@ -24,6 +26,7 @@
     background-repeat:no-repeat;
     background-size: 100%;
 }
+
 
 
 .turner-text2 {
@@ -112,6 +115,32 @@ hr.vertical {
     font:$bodyFont;
     font-size: 15px;
 }
+
+.ins-types2{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    background-color: #9A9B9C;
+    padding-left: $sideMargin;
+    padding-right: $sideMargin;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color:white;
+}
+
+.ins-type2{
+    width: 30%;
+}
+.ins-type2 h3{
+    color: white;
+}
+.ins-type2 p{
+    font:$bodyFont;
+    font-size: 15px;
+}
+
+
+
 .honors{
     display: flex;
     align-items: center;
@@ -121,6 +150,18 @@ hr.vertical {
     padding-left: $sideMargin+200;
     padding-right: $sideMargin+200;
 }
+
+.faq{
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    color: $turnerWhite;
+    height: 100px;
+    padding-left: $sideMargin+200;
+    padding-right: $sideMargin+200;
+}
+
+
 .badges img{
     width: 125px;
     padding: 20px;
@@ -151,4 +192,67 @@ hr.vertical {
 .transparent-button2:hover {
     background-image: none !important;
     background-color: #025B91 !important;
+  }
+
+  .faq-section{
+    display: flex;
+    flex-direction: column;
 }
+
+.faq-bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 28vw;
+    background-color:#E1EBF5;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+
+.faq-bg p{
+    text-align: center;
+    padding-right: 700px;
+    padding-left: 700px;
+    font-family: $bodyFont;
+    white-space:nowrap;
+    
+    
+}
+
+.faqbutton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0177bf;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-radius: 13px;
+  }
+
+// .profile-section2{
+//     display: flex;
+//     flex-direction: column;
+// }
+ 
+// .honors2{
+//     display: flex!important;
+//     align-items: center!important;
+//     background-color: $turnerBlue!important;
+//     color: $turnerWhite!important;
+//     height: 100px!important;
+//     padding-left: $sideMargin+200!important;
+//     padding-right: $sideMargin+200!important;
+// }
+
+// .honors2 p{
+//     text-align: center!important;
+//     padding-right: 50px!important;
+//     padding-left: 50px!important;
+//     font-family: $bodyFont!important;
+    
+// }

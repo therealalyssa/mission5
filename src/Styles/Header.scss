@@ -6,6 +6,16 @@
     align-items: center;
     background-color: $turnerOffWhite;
 }
+
+.header2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #434344;
+    color:white;
+} 
+
+
 .title{
     margin-left: $sideMargin;
     margin-right: $sideMargin;
