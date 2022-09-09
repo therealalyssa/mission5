@@ -1,7 +1,10 @@
 //Alyssa
 
 import React from 'react'
-
+import FaqDropDown from "./FAQDropDown";
+import FaqDropDown2 from "./FaqDropDown2";
+import FaqDropDown3 from "./FaqDropDown3";
+import FaqDropDown4 from "./FaqDropDown4";
 
 
 function FAQs(){
@@ -14,21 +17,18 @@ function FAQs(){
       <div className="faq-bg">
       
         <div>
-          
-        <p>Frequently Asked Questions</p>
-        <button className="green-button2">Hi</button>
-          <div className='faqbutton1'>
-          Car Insurance
-          </div>
-          <p>Car Insurance is goos</p>
-            
-              <p>Mechanical Breakdown Insurance</p>
-             
-
-<p>Make a Claim</p>
-
-          
-<p>Payment</p>
+          <br></br>
+        <p>FREQUENTLY ASKED QUESTIONS</p>
+        <br></br>
+        <FaqDropDown></FaqDropDown>
+        <br></br>
+        <FaqDropDown2></FaqDropDown2>
+        <br></br>
+        <FaqDropDown3></FaqDropDown3>
+        <br></br>
+        <FaqDropDown4></FaqDropDown4>
+        <br></br>
+      
 
         </div>
       </div>
@@ -36,6 +36,19 @@ function FAQs(){
     export default FAQs;
 
 
+//     <button className="green-button2">Hi</button>
+//     <div className='faqbutton1'>
+//     Car Insurance
+//     </div>
+//     <p>Car Insurance is goos</p>
+      
+//         <p>Mechanical Breakdown Insurance</p>
+       
+
+// <p>Make a Claim</p>
+
+    
+// <p>Payment</p>
 
 
 
